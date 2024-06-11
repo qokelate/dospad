@@ -55,6 +55,27 @@
 		04F2AF561104ABD200D6DDF7 /* SDL_assert.c in Sources */ = {isa = PBXBuildFile; fileRef = 04F2AF551104ABD200D6DDF7 /* SDL_assert.c */; };
 		2A4546F917D2809F00D18563 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F2A9CD12CD99EC0091B859 /* CoreMIDI.framework */; };
 		2A4546FA17D2812100D18563 /* PianoKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E794F3FE12DB4F0E00427836 /* PianoKeyboard.m */; };
+		3FD1C8C72C18517400904D5F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD1C8C62C18517300904D5F /* CFNetwork.framework */; };
+		3FD1C8C92C18518800904D5F /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD1C8C82C18518700904D5F /* Network.framework */; };
+		3FD1C8CA2C1851AD00904D5F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2BBDE252190CA00490083 /* MobileCoreServices.framework */; };
+		3FF0C7FE2C1850AD002BA04C /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7D92C1850AD002BA04C /* GCDWebServer.m */; };
+		3FF0C7FF2C1850AD002BA04C /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7DB2C1850AD002BA04C /* GCDWebServerConnection.m */; };
+		3FF0C8002C1850AD002BA04C /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7DD2C1850AD002BA04C /* GCDWebServerFunctions.m */; };
+		3FF0C8012C1850AD002BA04C /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7E12C1850AD002BA04C /* GCDWebServerRequest.m */; };
+		3FF0C8022C1850AD002BA04C /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7E32C1850AD002BA04C /* GCDWebServerResponse.m */; };
+		3FF0C8032C1850AD002BA04C /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7E62C1850AD002BA04C /* GCDWebServerDataRequest.m */; };
+		3FF0C8042C1850AD002BA04C /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7E82C1850AD002BA04C /* GCDWebServerFileRequest.m */; };
+		3FF0C8052C1850AD002BA04C /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7EA2C1850AD002BA04C /* GCDWebServerMultiPartFormRequest.m */; };
+		3FF0C8062C1850AD002BA04C /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7EC2C1850AD002BA04C /* GCDWebServerURLEncodedFormRequest.m */; };
+		3FF0C8072C1850AD002BA04C /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7EF2C1850AD002BA04C /* GCDWebServerDataResponse.m */; };
+		3FF0C8082C1850AD002BA04C /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7F12C1850AD002BA04C /* GCDWebServerErrorResponse.m */; };
+		3FF0C8092C1850AD002BA04C /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7F32C1850AD002BA04C /* GCDWebServerFileResponse.m */; };
+		3FF0C80A2C1850AD002BA04C /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7F52C1850AD002BA04C /* GCDWebServerStreamedResponse.m */; };
+		3FF0C80C2C1850AD002BA04C /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7F92C1850AD002BA04C /* GCDWebUploader.m */; };
+		3FF0C80D2C1850AD002BA04C /* GCDWebUploader_bundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7FA2C1850AD002BA04C /* GCDWebUploader_bundle.m */; };
+		3FF0C80E2C1850AD002BA04C /* loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7FB2C1850AD002BA04C /* loader.m */; };
+		3FF0C80F2C1850AD002BA04C /* WebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0C7FD2C1850AD002BA04C /* WebServer.m */; };
+		3FF0C8112C185125002BA04C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF0C8102C185125002BA04C /* SystemConfiguration.framework */; };
 		9222DD561CC44A9F00B321B9 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9222DD551CC44A9F00B321B9 /* GameController.framework */; };
 		E70836B92539EEB200B9321F /* KeyboardSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = E70836B82539EEB200B9321F /* KeyboardSpy.m */; };
 		E70C044112A4B43F00AC178F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70C044012A4B43F00AC178F /* AVFoundation.framework */; };
@@ -759,6 +780,44 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3FD1C8C62C18517300904D5F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3FD1C8C82C18518700904D5F /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		3FF0C7D82C1850AD002BA04C /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		3FF0C7D92C1850AD002BA04C /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		3FF0C7DA2C1850AD002BA04C /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		3FF0C7DB2C1850AD002BA04C /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		3FF0C7DC2C1850AD002BA04C /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		3FF0C7DD2C1850AD002BA04C /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		3FF0C7DE2C1850AD002BA04C /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		3FF0C7DF2C1850AD002BA04C /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		3FF0C7E02C1850AD002BA04C /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		3FF0C7E12C1850AD002BA04C /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		3FF0C7E22C1850AD002BA04C /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		3FF0C7E32C1850AD002BA04C /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		3FF0C7E52C1850AD002BA04C /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		3FF0C7E62C1850AD002BA04C /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		3FF0C7E72C1850AD002BA04C /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		3FF0C7E82C1850AD002BA04C /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		3FF0C7E92C1850AD002BA04C /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		3FF0C7EA2C1850AD002BA04C /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		3FF0C7EB2C1850AD002BA04C /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		3FF0C7EC2C1850AD002BA04C /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		3FF0C7EE2C1850AD002BA04C /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		3FF0C7EF2C1850AD002BA04C /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		3FF0C7F02C1850AD002BA04C /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		3FF0C7F12C1850AD002BA04C /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		3FF0C7F22C1850AD002BA04C /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		3FF0C7F32C1850AD002BA04C /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		3FF0C7F42C1850AD002BA04C /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		3FF0C7F52C1850AD002BA04C /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		3FF0C7F72C1850AD002BA04C /* GCDWebUploader.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCDWebUploader.bundle; sourceTree = "<group>"; };
+		3FF0C7F82C1850AD002BA04C /* GCDWebUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebUploader.h; sourceTree = "<group>"; };
+		3FF0C7F92C1850AD002BA04C /* GCDWebUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebUploader.m; sourceTree = "<group>"; };
+		3FF0C7FA2C1850AD002BA04C /* GCDWebUploader_bundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebUploader_bundle.m; sourceTree = "<group>"; };
+		3FF0C7FB2C1850AD002BA04C /* loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loader.m; sourceTree = "<group>"; };
+		3FF0C7FC2C1850AD002BA04C /* WebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServer.h; sourceTree = "<group>"; };
+		3FF0C7FD2C1850AD002BA04C /* WebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServer.m; sourceTree = "<group>"; };
+		3FF0C8102C185125002BA04C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9222DD551CC44A9F00B321B9 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		E70836B72539EEB200B9321F /* KeyboardSpy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardSpy.h; sourceTree = "<group>"; };
 		E70836B82539EEB200B9321F /* KeyboardSpy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardSpy.m; sourceTree = "<group>"; };
@@ -1491,6 +1550,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FD1C8CA2C1851AD00904D5F /* MobileCoreServices.framework in Frameworks */,
+				3FD1C8C92C18518800904D5F /* Network.framework in Frameworks */,
+				3FD1C8C72C18517400904D5F /* CFNetwork.framework in Frameworks */,
+				3FF0C8112C185125002BA04C /* SystemConfiguration.framework in Frameworks */,
 				E79610272564DCA000556B9D /* libmt32emu.a in Frameworks */,
 				E7B7F8701DE1D70200590701 /* libc++.tbd in Frameworks */,
 				E7A01EF41CC9A5480036A4CF /* CoreAudio.framework in Frameworks */,
@@ -1574,6 +1637,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				3FF0C7D52C1850AD002BA04C /* GCDWebUploader */,
 				E7D98C491CC9F7F000A17CFC /* Sources */,
 				E79E44F411EC2D5200DEAA7B /* Resources */,
 				E7960F472564CE4D00556B9D /* mt32emu */,
@@ -1586,6 +1650,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FD1C8C82C18518700904D5F /* Network.framework */,
+				3FD1C8C62C18517300904D5F /* CFNetwork.framework */,
+				3FF0C8102C185125002BA04C /* SystemConfiguration.framework */,
 				E72FA29925622C5C009731A4 /* CloudKit.framework */,
 				E7B2BBDE252190CA00490083 /* MobileCoreServices.framework */,
 				E7B7F86F1DE1D70200590701 /* libc++.tbd */,
@@ -1605,6 +1672,88 @@
 				E7B2BBCF252155F000490083 /* QuickLookThumbnailing.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FF0C7D52C1850AD002BA04C /* GCDWebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0C7D62C1850AD002BA04C /* GCDWebServer */,
+				3FF0C7F62C1850AD002BA04C /* GCDWebUploader */,
+				3FF0C7FB2C1850AD002BA04C /* loader.m */,
+				3FF0C7FC2C1850AD002BA04C /* WebServer.h */,
+				3FF0C7FD2C1850AD002BA04C /* WebServer.m */,
+			);
+			path = GCDWebUploader;
+			sourceTree = "<group>";
+		};
+		3FF0C7D62C1850AD002BA04C /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0C7D72C1850AD002BA04C /* Core */,
+				3FF0C7E42C1850AD002BA04C /* Requests */,
+				3FF0C7ED2C1850AD002BA04C /* Responses */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		3FF0C7D72C1850AD002BA04C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0C7D82C1850AD002BA04C /* GCDWebServer.h */,
+				3FF0C7D92C1850AD002BA04C /* GCDWebServer.m */,
+				3FF0C7DA2C1850AD002BA04C /* GCDWebServerConnection.h */,
+				3FF0C7DB2C1850AD002BA04C /* GCDWebServerConnection.m */,
+				3FF0C7DC2C1850AD002BA04C /* GCDWebServerFunctions.h */,
+				3FF0C7DD2C1850AD002BA04C /* GCDWebServerFunctions.m */,
+				3FF0C7DE2C1850AD002BA04C /* GCDWebServerHTTPStatusCodes.h */,
+				3FF0C7DF2C1850AD002BA04C /* GCDWebServerPrivate.h */,
+				3FF0C7E02C1850AD002BA04C /* GCDWebServerRequest.h */,
+				3FF0C7E12C1850AD002BA04C /* GCDWebServerRequest.m */,
+				3FF0C7E22C1850AD002BA04C /* GCDWebServerResponse.h */,
+				3FF0C7E32C1850AD002BA04C /* GCDWebServerResponse.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3FF0C7E42C1850AD002BA04C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0C7E52C1850AD002BA04C /* GCDWebServerDataRequest.h */,
+				3FF0C7E62C1850AD002BA04C /* GCDWebServerDataRequest.m */,
+				3FF0C7E72C1850AD002BA04C /* GCDWebServerFileRequest.h */,
+				3FF0C7E82C1850AD002BA04C /* GCDWebServerFileRequest.m */,
+				3FF0C7E92C1850AD002BA04C /* GCDWebServerMultiPartFormRequest.h */,
+				3FF0C7EA2C1850AD002BA04C /* GCDWebServerMultiPartFormRequest.m */,
+				3FF0C7EB2C1850AD002BA04C /* GCDWebServerURLEncodedFormRequest.h */,
+				3FF0C7EC2C1850AD002BA04C /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		3FF0C7ED2C1850AD002BA04C /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0C7EE2C1850AD002BA04C /* GCDWebServerDataResponse.h */,
+				3FF0C7EF2C1850AD002BA04C /* GCDWebServerDataResponse.m */,
+				3FF0C7F02C1850AD002BA04C /* GCDWebServerErrorResponse.h */,
+				3FF0C7F12C1850AD002BA04C /* GCDWebServerErrorResponse.m */,
+				3FF0C7F22C1850AD002BA04C /* GCDWebServerFileResponse.h */,
+				3FF0C7F32C1850AD002BA04C /* GCDWebServerFileResponse.m */,
+				3FF0C7F42C1850AD002BA04C /* GCDWebServerStreamedResponse.h */,
+				3FF0C7F52C1850AD002BA04C /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		3FF0C7F62C1850AD002BA04C /* GCDWebUploader */ = {
+			isa = PBXGroup;
+			children = (
+				3FF0C7F72C1850AD002BA04C /* GCDWebUploader.bundle */,
+				3FF0C7F82C1850AD002BA04C /* GCDWebUploader.h */,
+				3FF0C7F92C1850AD002BA04C /* GCDWebUploader.m */,
+				3FF0C7FA2C1850AD002BA04C /* GCDWebUploader_bundle.m */,
+			);
+			path = GCDWebUploader;
 			sourceTree = "<group>";
 		};
 		E7107146129A8E5A00B21291 /* floatpanel-res */ = {
@@ -3222,12 +3371,12 @@
 					};
 					E7B2BBCD252155EE00490083 = {
 						CreatedOnToolsVersion = 11.6;
-						DevelopmentTeam = 4C8YZND49H;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = F4JN84Y564;
+						ProvisioningStyle = Manual;
 					};
 					E7BE1297128BF31A0046990B = {
-						DevelopmentTeam = 4C8YZND49H;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = F4JN84Y564;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -3622,30 +3771,47 @@
 				E7BE12F6128BF31A0046990B /* HoldIndicator.m in Sources */,
 				E73A566B2534979900E3B3FB /* MfiGamepadConfiguration.m in Sources */,
 				E7BE12F7128BF31A0046990B /* FrameskipIndicator.m in Sources */,
+				3FF0C8062C1850AD002BA04C /* GCDWebServerURLEncodedFormRequest.m in Sources */,
 				E7B2BBE8252432DC00490083 /* UIViewController+Alert.m in Sources */,
 				E7BE12F8128BF31A0046990B /* KeyLockIndicator.m in Sources */,
+				3FF0C8082C1850AD002BA04C /* GCDWebServerErrorResponse.m in Sources */,
 				E7FDFB42254E6EEE00A6DE66 /* DPKeyBinding.m in Sources */,
 				E77E085E2549126900B5B11D /* DPGamepad.m in Sources */,
 				E7FDFB5A254EBD5800A6DE66 /* DPGamepadConfiguration.m in Sources */,
+				3FF0C8012C1850AD002BA04C /* GCDWebServerRequest.m in Sources */,
 				E7BE12FC128BF31A0046990B /* FloatingView.m in Sources */,
+				3FF0C8072C1850AD002BA04C /* GCDWebServerDataResponse.m in Sources */,
+				3FF0C8032C1850AD002BA04C /* GCDWebServerDataRequest.m in Sources */,
 				E77E08702549265F00B5B11D /* DPThemeSceneView.m in Sources */,
+				3FF0C80D2C1850AD002BA04C /* GCDWebUploader_bundle.m in Sources */,
+				3FF0C8042C1850AD002BA04C /* GCDWebServerFileRequest.m in Sources */,
+				3FF0C8002C1850AD002BA04C /* GCDWebServerFunctions.m in Sources */,
 				E7FDFB6A255150DA00A6DE66 /* SoundEffect.m in Sources */,
+				3FF0C80F2C1850AD002BA04C /* WebServer.m in Sources */,
 				E72BE69712911096009DC46A /* DPEmulatorViewController.m in Sources */,
 				E7A01EE71CC9277E0036A4CF /* ColorTheme.m in Sources */,
 				E7FDFB96255A3F8300A6DE66 /* DPThumbView.m in Sources */,
+				3FF0C80C2C1850AD002BA04C /* GCDWebUploader.m in Sources */,
 				E73A566E2534A49000E3B3FB /* MfiGamepadManager.m in Sources */,
 				E71706DC25472C20000AF482 /* DPThemeScene.m in Sources */,
 				E72BE6E412911B5C009DC46A /* AppDelegate.m in Sources */,
 				E72BE6E512911B5C009DC46A /* DOSPadEmulator.m in Sources */,
+				3FF0C7FF2C1850AD002BA04C /* GCDWebServerConnection.m in Sources */,
+				3FF0C7FE2C1850AD002BA04C /* GCDWebServer.m in Sources */,
 				F262CC2625A52C85005F21D2 /* DPKeyboardManager.m in Sources */,
 				E72BE6E712911B5C009DC46A /* KeyboardView.m in Sources */,
 				E72BE6E812911B5C009DC46A /* KeyView.m in Sources */,
+				3FF0C80A2C1850AD002BA04C /* GCDWebServerStreamedResponse.m in Sources */,
+				3FF0C80E2C1850AD002BA04C /* loader.m in Sources */,
+				3FF0C8092C1850AD002BA04C /* GCDWebServerFileResponse.m in Sources */,
 				E7DF95C92535965600ECB198 /* MfiGamepadMapperView.m in Sources */,
 				E76C49381299490200901B69 /* FloatPanel.m in Sources */,
+				3FF0C8022C1850AD002BA04C /* GCDWebServerResponse.m in Sources */,
 				E70836B92539EEB200B9321F /* KeyboardSpy.m in Sources */,
 				E71706D2254643AD000AF482 /* DPTheme.m in Sources */,
 				E74BB2B715C93DBC005EC552 /* DosPadUIApplication.m in Sources */,
 				2A4546FA17D2812100D18563 /* PianoKeyboard.m in Sources */,
+				3FF0C8052C1850AD002BA04C /* GCDWebServerMultiPartFormRequest.m in Sources */,
 				E7FDFB23254E6AF200A6DE66 /* DPGamepadButtonEditor.m in Sources */,
 				E79610322566580000556B9D /* DPSettings.m in Sources */,
 			);
@@ -4127,11 +4293,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 20210108;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 4C8YZND49H;
+				DEVELOPMENT_TEAM = F4JN84Y564;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -4155,7 +4321,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchie.idosgames.thumbnail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = sma11caseDev1;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -4194,11 +4360,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 20210108;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 4C8YZND49H;
+				DEVELOPMENT_TEAM = F4JN84Y564;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -4217,7 +4383,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchie.idosgames.thumbnail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = sma11caseDev1;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -4257,11 +4423,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 20210108;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 4C8YZND49H;
+				DEVELOPMENT_TEAM = F4JN84Y564;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -4280,7 +4446,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchie.idosgames.thumbnail;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = sma11caseDev1;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -4292,11 +4458,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 20210108;
-				DEVELOPMENT_TEAM = 4C8YZND49H;
+				DEVELOPMENT_TEAM = F4JN84Y564;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = dospad/DPPrefix.pch;
@@ -4318,7 +4484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchie.idosgames;
 				PRODUCT_NAME = iDOS;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = sma11caseDev1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGLES;
 			};
@@ -4329,11 +4495,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 20210108;
-				DEVELOPMENT_TEAM = 4C8YZND49H;
+				DEVELOPMENT_TEAM = F4JN84Y564;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = dospad/DPPrefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4352,7 +4518,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchie.idosgames;
 				PRODUCT_NAME = iDOS;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = sma11caseDev1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGLES;
@@ -4440,11 +4606,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 20210108;
-				DEVELOPMENT_TEAM = 4C8YZND49H;
+				DEVELOPMENT_TEAM = F4JN84Y564;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = dospad/DPPrefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4464,7 +4630,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.litchie.idosgames;
 				PRODUCT_NAME = iDOS;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = sma11caseDev1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGLES;
