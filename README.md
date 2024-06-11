@@ -1,3 +1,10 @@
+
+
+## Update
+
+add GCDWebUploader, open http://192.168.0.2(device ip) to uplpad/download files.
+
+
 dospad
 ======
 
