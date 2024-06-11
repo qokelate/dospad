@@ -992,13 +992,16 @@ static struct {
 
 -(void)showOption:(id)sender
 {
+    //by sma11case
+    static BOOL mute = NO;
+    
 	[self alert:@"Action" message:@"Please choose an option"
 		actions:@[
 	 		[UIAlertAction actionWithTitle:@"Screenshot"
 	 			style:UIAlertActionStyleDefault
 	 			handler:^(UIAlertAction * _Nonnull action) {
 	 				[[DOSPadEmulator sharedInstance] takeScreenshot];
-                }],
+            }],
 	 		[UIAlertAction actionWithTitle:@"Settings"
 	 			style:UIAlertActionStyleDefault
 	 			handler:^(UIAlertAction * _Nonnull action) {
@@ -1010,7 +1013,29 @@ static struct {
 						[[UIApplication sharedApplication]
 						 openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
 					}
-                }]
+            }],
+            //by sma11case
+            [UIAlertAction actionWithTitle:@"Turbo"
+                style:UIAlertActionStyleDefault
+                handler:^(UIAlertAction * _Nonnull action) {
+                extern int CPU_CycleLeft;
+                extern int CPU_CycleMax;
+                extern int CPU_OldCycleMax;
+                CPU_CycleLeft += 1000;
+                CPU_CycleMax += 1000;
+                CPU_OldCycleMax += 1000;
+            }],
+            [UIAlertAction actionWithTitle:(mute ? @"Unmute" : @"Mute")
+                style:UIAlertActionStyleDefault
+                handler:^(UIAlertAction * _Nonnull action) {
+                mute = (mute ? NO : YES);
+                SDL_PauseAudio(mute);
+            }],
+            [UIAlertAction actionWithTitle:@"Exit"
+                style:UIAlertActionStyleDefault
+                handler:^(UIAlertAction * _Nonnull action) {
+                exit(0);
+            }],
 		]
 		source:sender];
 }
